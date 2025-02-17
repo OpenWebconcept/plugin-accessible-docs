@@ -1,0 +1,48 @@
+publiccodeYmlVersion: '0.2'
+
+name: "owc-accessible-docs"
+applicationSuite: 'OpenWebconcept'
+url: 'https://github.com/OpenWebconcept/plugin-accessible-docs'
+releaseDate: '2025-02-18'
+
+platforms:
+  - 'web'
+
+categories:
+  - 'application-development'
+
+developmentStatus: 'Production'
+
+softwareType: 'softwareAddon'
+
+description:
+	en:
+		genericName: 'OWC Accessible Docs'
+    shortDescription: 'This plugin ensures documents are accessible'
+		longDescription: 'This plugin ensures documents are accessible by providing necessary tools and features'
+	nl:
+		genericName: 'OWC Toegankelijke Documenten'
+		shortDescription: 'Deze plugin zorgt ervoor dat documenten toegankelijk zijn'
+		longDescription: 'Deze plugin zorgt ervoor dat documenten toegankelijk zijn door de benodigde tools en functies te bieden'
+
+legal:
+	license: 'EUPL-1.2'
+  repoOwner: 'Yard | Digital Agency'
+
+dependsOn:
+	open:
+		- name: 'php-di/php-di'
+		- versionMin: 7.0.0
+
+intendedAudience:
+	countries:
+		- nl
+	scope:
+		- government
+
+maintenance:
+	contractors:
+		- name: 'Yard | Digital Agency'
+		  website: 'https://www.yard.nl'
+		  email: 'owc@yard.nl'
+	type: 'contract'

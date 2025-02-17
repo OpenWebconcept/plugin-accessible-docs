@@ -1,0 +1,11 @@
+# Files
+*.map
+*.zip
+.DS_Store
+.phpunit.result.cache
+
+# Folders
+dist
+node_modules
+tests/coverage
+vendor
